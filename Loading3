@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>
+			100% Loaded
+		</title>
+		<link rel="icon" href="icon.png" type="image/icon type">
+		<style>
+			body {
+				background-image: url("2nd background.png");
+			}
+		</style>
+		<script type = "text/javascript">
+            <!--
+                function Redirect() {
+                    window.location = "Task.html";
+                }            
+                setTimeout('Redirect()', 1500);
+            //-->
+        </script>
+	</head>
+	<body>	
+	</body>
+</html>

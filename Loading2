@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>
+			InVision Share
+		</title>
+		<link rel="icon" href="icon.png" type="image/icon type">
+		<style>
+			body {
+				background-image: url("1st background.png");
+			}
+		</style>
+		<script type = "text/javascript">
+            <!--
+                function Redirect() {
+                    window.location = "Loading3.html";
+                }            
+                setTimeout('Redirect()', 500);
+            //-->
+        </script>
+	</head>
+	<body>	
+	</body>
+</html>

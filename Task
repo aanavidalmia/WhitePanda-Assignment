@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Task
+		</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="icon.png" type="image/icon type">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				background-color: rgb(253,253,253);
+				margin: 0;
+			}
+			.header {
+				float: right top;
+				width: 1360px;
+				background-color: #ffffff;
+				height: 65px;
+				box-shadow: 1.5px 1.5px #dcdcdc;
+			}
+			.navigationBar {
+				float: left;
+				width: 5%;
+				background-color: #ffffff;
+				height: 800px;
+				box-shadow: 1.5px 1.5px #dcdcdc;
+			}
+			.icon1:hover {
+				display: block;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				background: url('1st selected.png') no-repeat;
+				width: 63px;
+				height: 58px;
+				padding-left: 63px;
+			}
+			.icon2:hover {
+				display: block;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				background: url('2nd selected.png') no-repeat;
+				width: 63px;
+				height: 58px;
+				padding-left: 63px;
+			}
+			.icon3:hover {
+				display: block;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				background: url('3rd selected.png') no-repeat;
+				width: 63px;
+				height: 58px;
+				padding-left: 63px;
+			}
+			.space1 {
+				padding: 50px;
+			}
+			.logo {
+				margin-left: 80px;
+			}
+			.notif {
+				margin-left: 1100px;
+				position: absolute;
+				top: 10px;
+			}
+			.badge {
+				font-size: 12px;
+				margin-left: 1125px;
+				position: absolute;
+				top: 14px;
+				padding: 5px 4px;
+				border-radius: 50%;
+				background-color: rgb(242,92,105);
+				color: white;
+			}
+			.username {
+				font-size: 18px;
+				font-family: Calibri;
+				margin-left: 1165px;
+				position: absolute;
+				top: 14px;
+				padding: 7px 8px;
+				border-radius: 50%;
+				background-color: rgb(179,231,127);
+				color: white;
+			}
+			.heading {
+				margin-top: 70px;
+				margin-left: 180px;
+				font-size: 38px;
+				font-family: Calibri;
+			}
+			.order {
+				font-family: Calibri;
+				background-color: rgb(249,251,251);
+				margin-left: 180px;
+				margin-right: 120px;
+				padding: 15px;
+				padding-left: 20px;
+				color: rgb(171,173,173);
+				border-width: 1px;
+				border-color: white;
+			}
+			.orderbutton {
+				background-color: rgb(249,251,251); 
+				color: rgb(62,187,178); 
+				border: 2px solid rgb(62,187,178);
+				border-radius: 4px;
+				font-size: 12px;
+				padding: 12px 24px;
+			}
+			.orderheading {
+				color: rgb(62,187,178); 
+				font-size: 20px;
+			}
+			.ordertext {
+				line-height: 1.4;
+			}
+			.suborder {
+				font-family: Calibri;
+				width: 350px;
+				height: 280px;
+				background-color: white;
+				margin-left: 180px;
+				margin-top: 70px;
+				padding: 40px;
+			}
+			.ordersubbutton {
+				font-size: 14px;
+				color: rgb(62,187,178);
+				border: 2px solid rgb(62,187,178);
+				background-color: white;
+				padding: 10px 55px;
+				border-radius: 2px;
+			}
+			.ordermoney, .orderpara, .ordersub {
+				font-family: Calibri;
+			}
+			.ordersub {
+				color: rgb(72,72,72);
+				font-size: 20px;
+			}
+			.ordermoney {
+				color: rgb(92,92,92);
+				font-size: 18px;
+			}
+			.orderpara {
+				color: rgb(173,173,173);
+			}
+			.suborder1.ordersub {
+				position: absolute;
+				top: 550px;
+				left: 300px;
+			}
+			.suborder1.ordermoney {
+				position: absolute;
+				top: 575px;
+				left: 300px;
+			}
+			.suborder2 {
+				position: absolute;
+				top: 430px;
+				left: 400px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="navigationBar">
+		    <div class="space1">
+			</div>
+			<div class="icon">
+				<a href="#">
+					<img src="1st not selected.png" alt="" style="width:63px;height:58px;border:0;" class="icon1">
+				</a> 
+			</div>
+			<div class="icon">
+				<a href="#">
+					<img src="2nd not selected.png" alt="" style="width:63px;height:58px;border:0;"  class="icon2">
+				</a>
+			</div>
+			<div class="icon">
+				<a href="#">
+					<img src="3rd not selected.png" alt="" style="width:63px;height:58px;border:0;" class="icon3">
+				</a>
+			</div>
+		</div>
+		<div class="header">
+			<div class="logo">
+				<a href="#">
+					<img src="Logo.png" alt="" style="width:129px;height:65px;border:0;" class="logo">
+				</a>
+			</div>
+			<div class="notification">
+				<a href="#" class="notification">
+					<img src="Notification.png" alt="" style="width:52px;height:48px;border:0;" class="notif">
+					<span class="badge">699</span>
+				</a>
+			</div>
+			<div class="profile">
+				<a href="#" class="profile">
+					<span class="username">AB</span>
+				</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="heading">
+				<p>Content Store</p>
+			</div>
+			<div class="order">
+				<p><span class="orderheading">Got bulk orders or almost similar orders? Fill the order brief in an excel sheet</span><br>
+				<p class="ordertext">If you're wondering about an easy way to place orders in large numbers, we provide a way customized just for that.<br>
+				Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help, <u>we<br>
+				are just a click away to assist you in placing your order</u></p></p>
+				<button class="orderbutton"><b>Order via Excel Sheet</b></button>
+			</div>
+			<div class="orders">
+				<div class="suborder1"><div class="suborder">
+					<img src="orderimage.png" alt="" style="width:67px;height:63px;border:0;" class="orderimage">
+					<span class="ordersub"><b>Blog / Article</b></span><br>
+					<span class="ordermoney">from ₹500</span>
+					<p class="orderpara">Typically 450-400 words, an e-book is<br>
+					perfect for your target audience ranging<br>
+					from prospective customers to users</p><br>
+					<button class="ordersubbutton"><b>Order</b></button>
+				</div></div>
+				<div class="suborder2"><div class="suborder">
+					<img src="orderimage.png" alt="" style="width:67px;height:63px;border:0;" class="orderimage">
+					<span class="ordersub"><b>Newsletter / E-mailer</b></span><br>
+					<span class="ordermoney">from ₹1000</span>
+					<p class="orderpara">Typically 450-400 words, an e-book is<br>
+					perfect for your target audience ranging<br>
+					from prospective customers to users</p><br>
+					<button class="ordersubbutton"><b>Order</b></button>
+				</div></div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
